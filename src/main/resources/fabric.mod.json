@@ -9,7 +9,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.serverstart.ServerStartFunctions"
+      "net.candyswapper.ServerStartFunctions"
     ]
   },
   "depends": {
