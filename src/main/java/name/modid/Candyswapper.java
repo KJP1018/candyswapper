@@ -1,4 +1,4 @@
-package net.serverstart;
+package net.candyswapper;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
