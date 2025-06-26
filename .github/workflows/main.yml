@@ -1,1 +1,19 @@
+name: Build Fabric Mod
 
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: gradle/gradle-build-action@v2
+        with:
+          gradle-version: 7.6.1
+          arguments: build
+      - name: Upload mod jar
+        uses: actions/upload-artifact@v4
+        with:
+          name: mod-jar
+          path: build/libs/*.jar
