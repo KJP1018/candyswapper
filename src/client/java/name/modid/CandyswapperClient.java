@@ -1,4 +1,4 @@
-package name.modid;
+package name.candyswapper;
 
 import net.fabricmc.api.ClientModInitializer;
 
